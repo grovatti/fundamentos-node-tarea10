@@ -1,0 +1,19 @@
+{
+  "name": "ejemplo",
+  "version": "1.0.0",
+  "description": "ejemplo",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app 2 6",
+    "dev": "nodemon app 9 6"
+  },
+  "author": "GROVATTI",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
